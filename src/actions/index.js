@@ -1,5 +1,5 @@
 import axios from "axios";
-import { FETCHING, SUCCESS, FAILURE } from "./exports";
+import { FETCHING, SUCCESS, FAILURE } from "./actions/exports";
 export const getData = () => dispatch => {
   dispatch({
     FETCHING
