@@ -7,7 +7,7 @@ export const getData = () => dispatch => {
   axios
     .get("https://swapi.co/api/people/")
     .then(res => {
-      console.log(res.data);
+      console.log("res", res.data);
       dispatch({
         type: SUCCESS,
         payload: res.data
